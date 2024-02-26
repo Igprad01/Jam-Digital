@@ -9,6 +9,7 @@
     background-color: aqua;
     padding: 7rem 7rem 7rem 7rem;
     margin-right: 10rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .menit {
