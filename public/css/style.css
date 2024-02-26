@@ -1,0 +1,23 @@
+.card {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jam {
+    background-color: aqua;
+    padding: 7rem 7rem 7rem 7rem;
+    margin-right: 10rem;
+}
+
+.menit {
+    background-color: aqua;
+    padding: 7rem 7rem 7rem 7rem;
+    margin-right: 10rem;
+}
+
+.detik {
+    background-color: aqua;
+    padding: 7rem 7rem 7rem 7rem;
+}
