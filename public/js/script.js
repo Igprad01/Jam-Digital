@@ -3,7 +3,15 @@ const menit = document.getElementById('menit');
 const detik = document.getElementById('detik');
 
 function JamDigital() {
-    let date = new date();
-    let hours = get.hours();
-    // dilanjutkan nanti masih ga focus 
+    const tgl = new Date();
+    const hours = tgl.getHours();
+    const dtk = tgl.getSeconds();
+    const mnt = tgl.getMinutes(); 
+    jam.textContent = `${hours}`;
+    detik.textContent = `${dtk}`;
+    menit.textContent = `${mnt}`;
 }
+
+setInterval(JamDigital, 1000);
+
+let result = JamDigital();
