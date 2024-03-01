@@ -12,6 +12,6 @@ function JamDigital() {
     menit.textContent = `${mnt}`;
 }
 
-setInterval(JamDigital, 1000);
+setInterval(JamDigital);
 
 let result = JamDigital();
