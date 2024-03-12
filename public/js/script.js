@@ -7,11 +7,11 @@ const tahun = document.getElementById('tahun');
 
 
 function JamDigital() {
-    const namaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];  // lanjutkan nanti
+    const namaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];  
     const tgl = new Date();
-    const hours = tgl.getHours();
-    const dtk = tgl.getSeconds();
-    const mnt = tgl.getMinutes();
+    const hours = tgl.getHours().toString().padStart(2, '0');
+    const dtk = tgl.getSeconds().toString().padStart(2, '0');
+    const mnt = tgl.getMinutes().toString().padStart(2, '0');
     const date = tgl.getDate();
     const getMonth = tgl.getMonth();
     const month = namaBulan[getMonth];
