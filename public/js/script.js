@@ -5,6 +5,9 @@ const tanggal = document.getElementById('tanggal');
 const bulan = document.getElementById('bulan');
 const tahun = document.getElementById('tahun');
 
+const api = '';
+
+
 
 function JamDigital() {
     const namaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];  
@@ -23,6 +26,8 @@ function JamDigital() {
     bulan.textContent = `${month}`;
     tahun.textContent = `${year}`;
 }
+
+
 
 setInterval(JamDigital);
 
